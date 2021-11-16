@@ -58,9 +58,9 @@ public class RNInvokeApp extends ReactContextBaseJavaModule {
             return;
         }
 
-        if (isAppOnForeground(reactContext)) {
+        //if (isAppOnForeground(reactContext)) {
             sendEvent();
-        }
+        //}
     }
 
     public static void sendEvent() {
